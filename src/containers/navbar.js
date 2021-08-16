@@ -5,8 +5,8 @@ import {useStyles} from "./style";
 const Navbar = () => {
     const classes = useStyles()
     return (
-        <nav className={classes.navroot}>
-            <div className={classes.logo}>
+        <nav className="">
+            <div className="">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51 51">
                     <g fill="none">
                         <circle cx="25.376" cy="25.376" r="25.378" fill="#FFF" >
@@ -18,8 +18,8 @@ const Navbar = () => {
                     </g>
                 </svg>
             </div>
-                <div className={classes.navcontent}>
-                    <ul className={classes.styleLists}>
+                <div className="">
+                    <ul className="">
                         <li>
                             <a href="#">HOME</a>
                         </li>
@@ -36,21 +36,21 @@ const Navbar = () => {
                             <a href="">CARRIERE</a>
                         </li>
                     </ul>
-                    <div className={classes.hidding}></div>
-                    <ul className={classes.styleLists}>
+                    <div className=""></div>
+                    <ul className="">
                         <li>
-                            <a href="#" className={`${classes.specialink} ${classes.bfirst}`}>
+                            <a href="#" className="">
                                 <LocationOnIcon/>
                                 Trouver un salon
                             </a>
                         </li>
                         <li>
-                            <a href="#" className={`${classes.buttonstyle} ${classes.bOne}`}>
+                            <a href="#" className="">
                                 Se connecter
                             </a>
                         </li>
                         <li>
-                            <a href="#" className={`${classes.buttonstyle} ${classes.btwo}`}>
+                            <a href="#" className="">
                                 Rejoindre maintenant
                             </a>
                         </li>
