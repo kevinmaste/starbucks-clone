@@ -7,8 +7,6 @@ function App() {
     <div className="">
         {/*navbar make after the design*/}
         <Navbar/>
-        <hr/>
-        <p style={{fontSize:24,textAlign:"center"}}>BODY</p>
         {/*body*/}
         <Body/>
     </div>
