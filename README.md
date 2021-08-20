@@ -37,6 +37,24 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+
+## How it's look alike 
+![img.png](img.png)
+![img_1.png](img_1.png)
+
+
+## About this testing copy of a web side
+
+**Firstable:
+I didn't realy finish the copy of the web site , i miss some few thing in it. 
+
+**secondable:
+I use in for this : material UI for the CSS , Reactjs and material UI icons.
+
+Who can install it , by using yarn or npm it doesn't matter :
+`npm install @material-ui/core ` ,`npm install @material-ui/icons` , if you're using `yarn` just put `yarn add` instead of `nom install`.
+you can also fork the project and modify it.
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
